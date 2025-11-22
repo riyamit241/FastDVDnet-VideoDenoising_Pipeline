@@ -4,7 +4,7 @@
 This repository implements a production-ready inference pipeline for **FastDVDnet**, a state-of-the-art Deep Learning video denoising algorithm. Unlike methods requiring optical flow, this project uses a sliding-window U-Net architecture to remove Gaussian noise from video feeds in real-time.
 
 ## Key Features
-* [cite_start]**Sliding Window Buffer:** Implements a 5-frame temporal buffer to leverage spatio-temporal coherence .
+* **Sliding Window Buffer:** Implements a 5-frame temporal buffer to leverage spatio-temporal coherence .
 * **Smart Resizing:** Automatically calculates aspect-ratio-safe dimensions divisible by 16 for U-Net compatibility.
 * **Optimized Inference:** Flattens temporal inputs into 15-channel tensors for efficient batch processing.
 
@@ -27,4 +27,4 @@ This repository implements a production-ready inference pipeline for **FastDVDne
     ```
 
 ## References
-* *FastDVDnet: Towards Real-Time Deep Video Denoising Without Flow Estimation* - Tassano et al. (CVPR 2020) [cite_start][cite: 2-4]
+* *FastDVDnet: Towards Real-Time Deep Video Denoising Without Flow Estimation* - Tassano et al. (CVPR 2020)
